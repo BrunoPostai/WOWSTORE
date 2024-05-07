@@ -1,0 +1,8 @@
+admin: admin@masterd.com
+senha: senha
+
+usuarios: beatrizteste@gmail.com
+senha: senha
+
+usuarios: teste123@gmail.com
+senha: senha

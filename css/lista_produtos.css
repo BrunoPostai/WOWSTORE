@@ -1,0 +1,100 @@
+/* Estilo básico para a página lista_produtos */
+* {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/products-bg.jfif');
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+table {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 60%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    vertical-align: auto; /* Alinhar verticalmente o conteúdo das células */
+    line-height: 12px; /* Ajuste a altura da célula aqui */
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table th,
+table td:last-child {
+    text-align: center;
+}
+
+table img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+table a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 0px;
+}
+
+table a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+#inserir {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+}
+ul.navbar {
+    width: 100%;
+    list-style-type: none;
+    background-color: #333;
+    padding: 20px;
+    margin: 0px;
+}
+
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: #555;
+}
